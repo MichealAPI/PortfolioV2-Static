@@ -1,5 +1,7 @@
 :root {
     --primary: #0F0F0F;
     --secondary: white;
-    --dark-gray: #202020;
+    --bg-dark-gray: #202020;
+    --light-gray: #C3C3C3;
+    --dark-gray: #8B8B8B;
 }
