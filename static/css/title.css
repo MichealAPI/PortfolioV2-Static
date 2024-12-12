@@ -1,0 +1,12 @@
+.title h1 {
+    color: var(--secondary);
+    font-size: 52px; 
+    margin: 0;
+}
+
+/** Mobile **/
+@media (max-width: 768px) {
+    .title h1 {
+        font-size: 24px;
+    }
+}

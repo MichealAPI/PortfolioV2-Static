@@ -13,12 +13,6 @@
     width: fit-content;
 }
 
-.header .biography .title h1 {
-    color: var(--secondary);
-    font-size: 52px; 
-    margin: 0;
-}
-
 .header .biography .subtitle p {
     color: var(--dark-gray);
     font-size: 14px;
@@ -45,7 +39,4 @@
         order: 1;
     }
 
-    .header .biography .title h1 {
-        font-size: 24px;
-    }
 }
