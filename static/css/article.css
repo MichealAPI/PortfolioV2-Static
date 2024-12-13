@@ -14,7 +14,7 @@
 
     border-radius: 15px;
 
-    transition: .3s;
+    /* transition: .3s; */
 
 }
 
@@ -76,6 +76,10 @@
 
 /** Mobile **/
 @media (max-width: 768px) {
+
+    .article-section .articles .article .wrapper .article-actions {
+        margin-bottom: 28px;
+    }
 
     .article-section {
         max-width: 431px;

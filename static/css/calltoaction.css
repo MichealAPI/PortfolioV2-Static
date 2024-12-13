@@ -1,0 +1,22 @@
+
+.calltoaction {
+    max-width: 100%;
+    display: flex;
+    gap: 36px;
+}
+
+.calltoaction .action {
+    display: flex;
+    gap: 7px;
+}
+
+.calltoaction .action .action-icon i {
+    font-size: 14px;
+    color: var(--dark-gray);
+}
+
+.calltoaction .action .action-text p {
+    font-size: 14px;
+    color: var(--light-gray);
+    margin: 0;
+}
