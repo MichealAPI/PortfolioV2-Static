@@ -1,16 +1,29 @@
 
 .calltoaction {
-    max-width: 100%;
     display: flex;
-    gap: 36px;
+    flex-wrap: wrap;
+    column-gap: 36px;
+    width: 100%;
+    margin-top: 14px;
 }
 
 .calltoaction .action {
+
+    text-decoration: none;
+
+    margin: 0;
     display: flex;
     gap: 7px;
 }
 
+.calltoaction .action:hover {
+    opacity: .8;
+    transform: scale(1.01);
+    transition: .1s;
+}
+
 .calltoaction .action .action-icon i {
+    margin: 0;
     font-size: 14px;
     color: var(--dark-gray);
 }
@@ -19,4 +32,15 @@
     font-size: 14px;
     color: var(--light-gray);
     margin: 0;
+}
+
+
+/** Mobile **/
+
+@media (max-width: 768px) {
+
+    .calltoaction {
+        padding-bottom: 30px;
+    }
+
 }

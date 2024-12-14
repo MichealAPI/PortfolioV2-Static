@@ -4,6 +4,11 @@
     margin: 0;
 }
 
+#articlesTitle h1 {
+    margin-bottom: 34px;
+    margin-top: 34px;
+}
+
 /** Mobile **/
 @media (max-width: 768px) {
     .title h1 {
