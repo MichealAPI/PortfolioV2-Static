@@ -1,23 +1,24 @@
 const articlesContainer = document.querySelector('#articles');
+const articleRelativeEndpoint = '/article.html?id=';
 
 const articles = [
     {
         "id": 1,
         "title": "How to create a simple web app using Flask",
         "likes": 4500,
-        "url": "#"
+        "url": "INTERNAL"
     },
     {
         "id": 2,
         "title": "How to create a simple web app using Django",
         "likes": 4500,
-        "url": "#"
+        "url": "INTERNAL"
     },
     {
-        "id": 3,
+        id: 3,
         "title": "How to create a simple web app using FastAPI",
         "likes": 4500,
-        "url": "#"
+        "url": "INTERNAL"
     }
 ];
 
@@ -41,7 +42,7 @@ articles.forEach(article => {
                                     </div>
 
                                     <div class="redirect-btn">
-                                        <a href="${article.url}" target="_blank">
+                                        <a href="${article.url === "INTERNAL" ? articleRelativeEndpoint + article.id : article.url}" target="_blank">
                                             <i class="bi bi-box-arrow-up-right"></i>
                                         </a>
                                     </div>

@@ -16,6 +16,11 @@
     font-size: 8px;
 }
 
+.navbar-brand .page-title i.arrow-back {
+    color: var(--secondary);
+    font-size: 21px;
+}
+
 /* On devices smaller than Mobile */
 @media (max-width: 768px) {
 
